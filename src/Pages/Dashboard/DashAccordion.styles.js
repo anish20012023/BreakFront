@@ -1,29 +1,27 @@
 import { makeStyles } from "@mui/styles";
 
 export const useStyles = makeStyles((theme) => ({
+ 
   accordion: {
     backgroundColor: "#EFEFEF",
-    boxShadow: "none",
-    marginBottom: "5px",
+    boxShadow: "none !important",
 
     "&.Mui-expanded": {
-      margin: "0",
-      borderRadius: "0",
-      marginBottom: "7px",
+      borderRadius: "0 ",
     },
 
     "& .accordianSummary": {
-      minHeight: "29px",
-      maxHeight: "29px ",
-      padding: "0 8px",
+      minHeight: "29px !important",
+      maxHeight: "29px !important ",
+      padding: "0 8px !important",
       backgroundColor: theme.palette.AccorColor,
-      fontSize: "12px",
+      fontSize: "12px ",
       fontWeight: "500",
       textTransform: "capitalize",
       color: theme.palette.headerTxtColor,
 
       "& .MuiAccordionSummary-content": {
-        margin: "0",
+        margin: "0 ",
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
@@ -42,26 +40,26 @@ export const useStyles = makeStyles((theme) => ({
   accordionDetails: {
     minHeight: "300px",
     backgroundColor: "#fff",
-    padding: 0,
+    padding: "0px !important",
     "& .selectBox": {
-      height: "20px",
+      height: "20px ",
       backgroundColor: theme.palette.secondaryHeader,
     },
 
     // date select
 
     "& .dateSelect": {
-      marginLeft: "5px",
+      marginLeft: "5px !important ",
       maxHeight: "100%",
-      maxWidth: "45px",
-      borderRadius: "0",
+      maxWidth: "45px !important",
+      borderRadius: "0 !important",
       display: "flex !important",
-      padding: "2px",
+      padding: "2px !important",
       outlineStyle: "none !important",
 
       "& .MuiSelect-select": {
-        padding: "0",
-        fontSize: "12px",
+        padding: "0 !important",
+        fontSize: "12px ",
       },
 
       "& .MuiSelect-iconOutlined": {
@@ -76,8 +74,8 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   dateMenuItem: {
-    padding: "2px 10px",
-    fontSize: "12px",
+    padding: "2px 10px !important",
+    fontSize: "12px !important",
   },
 
   chartBox: {

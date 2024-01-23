@@ -16,7 +16,8 @@ export const useStyles = makeStyles((theme) => ({
   },
   dashGrid: {
     marginTop: "0px",
-    padding: "0 4px",
+    padding: "4px",
+
     "& .gridItem": {},
   },
 }));

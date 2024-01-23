@@ -10,12 +10,12 @@ export const useStyles = makeStyles((theme) => ({
       padding: "0 3px",
 
       "&::-webkit-scrollbar": {
-        width:"2px",
+        width: "2px",
       },
-      "&::-webkit-scrollbar-thumb":{
-        width:"2px",
-        backgroundColor:theme.palette.PrimaryBgColor
-      }
+      "&::-webkit-scrollbar-thumb": {
+        width: "2px",
+        backgroundColor: theme.palette.PrimaryBgColor,
+      },
     },
     "& .head": {
       backgroundColor: theme.palette.PrimaryBgColor,
@@ -30,23 +30,23 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   accordion: {
-    backgroundColor: "#EFEFEF",
-    boxShadow: "none",
-    marginBottom: "5px",
+    backgroundColor: "#EFEFEF !important",
+    boxShadow: "none !important",
+    marginBottom: "5px !important",
 
     "&.Mui-expanded": {
-      margin: "0",
-      borderRadius: "0",
-      marginBottom: "7px",
+      margin: "0 !important",
+      borderRadius: "0 !important",
+      marginBottom: "7px !important",
     },
 
     "& .accordianSummary": {
-      minHeight: "29px",
-      maxHeight: "29px ",
+      minHeight: "29px !important",
+      maxHeight: "29px !important",
       padding: "0 8px",
       backgroundColor: theme.palette.AccorColor,
-      fontSize: "13px",
-      fontWeight: "500",
+      fontSize: "13px ",
+      fontWeight: "500 ",
       textTransform: "capitalize",
       color: theme.palette.headerTxtColor,
 

@@ -23,10 +23,10 @@ const CustomTextField = styled(TextField)(({ theme }) => ({
 
 const CustomFormControlLabel = styled(FormControlLabel)(({ theme }) => ({
   gap: "5px",
-  margin: 0,
+  margin: "0 auto !important",
   "& .MuiCheckbox-root": {
     borderRadius: "0",
-    padding: "0",
+    padding: "0 ",
     "& .MuiTouchRipple-root": {
       display: "none",
     },

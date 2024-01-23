@@ -12,7 +12,7 @@ function Dashboard() {
         <img src="images/dashboardPage/dash-white.svg" />
         <Typography>My Dashboard</Typography>
       </Box>
-      <Grid container className={classes.dashGrid} spacing={1}>
+      <Grid container className={classes.dashGrid} spacing={1} >
         <Grid item md={6} className="gridItem">
           <DashAccordion title={"Oppurtunities Lost By stage"}>
             <BarChart />

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="add_contact" transform="translate(-160 -17)">
+    <rect id="Rectangle_1319" data-name="Rectangle 1319" width="16" height="16" transform="translate(160 17)" fill="none"/>
+    <g id="add_lead_popup" transform="translate(160.29 18.563)">
+      <path id="Subtraction_27" data-name="Subtraction 27" d="M6.584,9.582H0C0,8.121,1.9,6.869,4.42,6.668V6.057A3.314,3.314,0,0,1,2.947,3.314c0-1.85,0-3.314,2.211-3.314S7.373,1.465,7.373,3.314A3.319,3.319,0,0,1,5.9,6.057v.611c.2.014.389.039.609.07a3.24,3.24,0,0,0-.289,1.344,3.28,3.28,0,0,0,.363,1.5Z" transform="translate(3.187 2.213)" fill="#009098"/>
+      <path id="contacts" d="M6.341,14.307a7.006,7.006,0,0,1,2.3-.927,4.16,4.16,0,0,1-.467-.68,4.223,4.223,0,0,1-.536-2.027A6.547,6.547,0,0,1,7.994,7.98,2.4,2.4,0,0,1,9.828,6.6c-.195-.881-.714-1.46-2.095-1.46-2.212,0-2.212,1.486-2.212,3.318A3.294,3.294,0,0,0,7,11.2v.608c-2.5.2-4.424,1.434-4.424,2.92H5.786A4.723,4.723,0,0,1,6.341,14.307Z" transform="translate(-2.338 -5.143)" fill="#0ec2cc"/>
+      <g id="Group_14721" data-name="Group 14721" transform="translate(10.072 7.756)">
+        <path id="Icon_ionic-ios-add-circle" data-name="Icon ionic-ios-add-circle" d="M5.933,3.375A2.558,2.558,0,1,1,3.375,5.933,2.558,2.558,0,0,1,5.933,3.375ZM4.82,6.13h.916v.916a.2.2,0,0,0,.394,0V6.13h.916a.2.2,0,1,0,0-.394H6.13V4.82a.2.2,0,0,0-.394,0v.916H4.82a.2.2,0,0,0,0,.394Z" transform="translate(-3.375 -3.375)" fill="#00b564"/>
+      </g>
+    </g>
+  </g>
+</svg>

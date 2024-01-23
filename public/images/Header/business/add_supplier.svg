@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.006" height="16" viewBox="0 0 16.006 16">
+  <g id="add_supplier" transform="translate(-271.993 -17)">
+    <rect id="Rectangle_1324" data-name="Rectangle 1324" width="16" height="16" transform="translate(271.999 17)" fill="none"/>
+    <g id="add_supplier_popup" transform="translate(-70.657 -165.152)">
+      <path id="Subtraction_35" data-name="Subtraction 35" d="M9.686,8.781H0V1.932C.037,1.852.859,0,1.4,0c.322,0,.488.648.488,1.928L4.41,3.2V.648L8.822,3.2V.494l4.4,2.547v2.2A3.543,3.543,0,0,0,9.688,8.775v0ZM8.822,4.313V6.229h1.885V4.314H8.822Zm-4.412,0V6.229H6.3V4.314H4.41Z" transform="translate(342.65 185.704)" fill="#009098"/>
+      <path id="Supplier" d="M10.389,18.62V14.637A.634.634,0,0,0,9.759,14h-.63a.634.634,0,0,0-.63.637v3.991Z" transform="translate(334.159 169.008)" fill="#7fc7cb"/>
+      <g id="Group_15563" data-name="Group 15563" transform="translate(353.065 191.707)">
+        <path id="Icon_ionic-ios-add-circle" data-name="Icon ionic-ios-add-circle" d="M6.17,3.375a2.8,2.8,0,1,1-2.8,2.8A2.8,2.8,0,0,1,6.17,3.375ZM4.954,6.386h1v1a.215.215,0,0,0,.43,0v-1h1a.215.215,0,1,0,0-.43h-1v-1a.215.215,0,1,0-.43,0v1h-1a.215.215,0,1,0,0,.43Z" transform="translate(-3.375 -3.375)" fill="#00b564"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="tasks" transform="translate(-176 -484)">
+    <rect id="Rectangle_1470" data-name="Rectangle 1470" width="16" height="16" transform="translate(176 484)" fill="none"/>
+    <g id="Group_15835" data-name="Group 15835" transform="translate(2.04 -0.345)">
+      <path id="Subtraction_50" data-name="Subtraction 50" d="M10.568,13.968H.706a.682.682,0,0,1-.7-.654V.653A.682.682,0,0,1,.706,0h5.87V3.709a.682.682,0,0,0,.7.654h3.991v8.951A.682.682,0,0,1,10.568,13.968ZM1.5,9.756V10.6H9.625V9.756ZM1.5,7.6v.84H9.625V7.6Zm0-2.014v.841H9.625V5.585Z" transform="translate(176.322 485.361)" fill="#009098"/>
+      <g id="Group_15820" data-name="Group 15820" transform="translate(183.834 485.361)">
+        <path id="Icon_awesome-file-signature" data-name="Icon awesome-file-signature" d="M10.724,3.326a.63.63,0,0,0-.205-.461L7.645.191A.732.732,0,0,0,7.146,0H6.967V3.493h3.757Z" transform="translate(-6.967)" fill="#7fc7cb"/>
+      </g>
+    </g>
+  </g>
+</svg>

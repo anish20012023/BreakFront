@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="supplier" transform="translate(-271.999 -17)">
+    <rect id="Rectangle_1324" data-name="Rectangle 1324" width="16" height="16" transform="translate(271.999 17)" fill="none"/>
+    <g id="add_supplier_popup" transform="translate(-69.158 -163.646)">
+      <path id="Supplier-2" data-name="Supplier" d="M17.166,17.373v2.661l-4.334-2.505v2.505l-2.476-1.252L8.5,18.789v6.727h13V19.878ZM14.69,23.01H12.832V21.131H14.69Zm4.334,0H17.166V21.131h1.857Z" transform="translate(334.158 168.767)" fill="#009098"/>
+      <path id="Supplier-3" data-name="Supplier" d="M10.356,18.541V14.626A.623.623,0,0,0,9.737,14H9.118a.623.623,0,0,0-.619.626v3.922Z" transform="translate(334.158 169.008)" fill="#7fc7cb"/>
+    </g>
+  </g>
+</svg>

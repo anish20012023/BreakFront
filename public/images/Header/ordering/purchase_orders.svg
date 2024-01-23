@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="purchase_orders" transform="translate(-231 -541)">
+    <rect id="Rectangle_1606" data-name="Rectangle 1606" width="16" height="16" transform="translate(231 541)" fill="none"/>
+    <g id="Group_15683" data-name="Group 15683" transform="translate(0.301 0.377)">
+      <path id="Subtraction_45" data-name="Subtraction 45" d="M20940.748,19002.049h-1.592a.458.458,0,0,1-.459-.441v-8.545a.458.458,0,0,1,.459-.441h3.8v2.508a.448.448,0,0,0,.457.438H20946v.4h-.537a.777.777,0,0,0-.715.426h-5.074v.568h4.758v.795h-4.758v.563h2.463l-.406.889h-2.057v.572h1.793l-.721,1.572v.7Z" transform="translate(-20707 -18450.602)" fill="#0ec2cc"/>
+      <g id="Group_15682" data-name="Group 15682" transform="translate(231.699 542.021)">
+        <path id="Icon_awesome-file-signature" data-name="Icon awesome-file-signature" d="M9.634,2.245A.434.434,0,0,0,9.5,1.934L7.64.129A.463.463,0,0,0,7.317,0H7.2V2.357H9.634Z" transform="translate(-2.333)" fill="#7fc7cb"/>
+      </g>
+      <path id="Icon_metro-truck2" data-name="Icon metro-truck2" d="M2.571,10.751,3.99,7.913H6.118V6.494a.712.712,0,0,1,.709-.71h6.385a.712.712,0,0,1,.709.71V12.17l-.709.71h-.9a1.419,1.419,0,1,1-2.457,0H5.928a1.419,1.419,0,1,1-2.457,0h-.9V10.751Zm3.547,0V8.622H4.647L3.583,10.751Z" transform="translate(231.777 540.217)" fill="#009098"/>
+    </g>
+  </g>
+</svg>

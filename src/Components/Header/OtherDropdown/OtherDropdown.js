@@ -1,10 +1,10 @@
-import { Button, Divider, ListItemIcon, ListItemText, Menu, MenuItem } from "@mui/material";
+import { Box, Button, Divider, ListItemIcon, ListItemText, Menu, MenuItem } from "@mui/material";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import React, { useState } from "react";
 import { useStyles } from "./OtherDropdown.styles";
 
-function OtherDropdown({menuData, title, logo}) {
+function OtherDropdown({ menuData, title, logo }) {
   const [dropAnchor, setDropAnchor] = useState(null);
   const [subAnchor, setSubAnchor] = useState(null);
   // main menu open
@@ -37,7 +37,7 @@ function OtherDropdown({menuData, title, logo}) {
 
       {/*  */}
       <Menu open={Boolean(dropAnchor)} anchorEl={dropAnchor} onClose={handleClose} className={classes.MenuDrop}>
-        <MenuItem onClick={handelSubOpen}  className={`subMenuItem ${classes.menuItem}`}>
+        <MenuItem onClick={handelSubOpen} className={`subMenuItem ${classes.menuItem}`}>
           <ListItemIcon>
             <img src={menuData[0].img} />
           </ListItemIcon>
@@ -49,14 +49,14 @@ function OtherDropdown({menuData, title, logo}) {
 
         <Divider />
         {menuData.slice(1).map((menu, index) => (
-          <>
-            <MenuItem  key={index} className={classes.menuItem} onClick={handleClose}>
+          <Box>
+            <MenuItem key={index} className={classes.menuItem} onClick={handleClose}>
               <ListItemIcon>
                 <img src={menu.img} />
               </ListItemIcon>
               <ListItemText>{menu.title}</ListItemText>
             </MenuItem>
-          </>
+          </Box>
         ))}
       </Menu>
 
@@ -70,8 +70,7 @@ function OtherDropdown({menuData, title, logo}) {
         className={`subMenu ${classes.MenuDrop}`}
       >
         {menuData[0].subMenu.map((item, index) => (
-          <MenuItem onClick={handleClose} key={index} className={classes.menuItem}
-          >
+          <MenuItem onClick={handleClose} key={index} className={classes.menuItem}>
             <ListItemIcon>
               <img src={item.img} />
             </ListItemIcon>

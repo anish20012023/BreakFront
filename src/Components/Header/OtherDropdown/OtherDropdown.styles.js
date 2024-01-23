@@ -14,25 +14,28 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   DropBtn: {
-    color: theme.palette.headerTxtColor,
-    fontSize: "13px",
-    textTransform: "capitalize",
-    "&:hover": {
-      background: "none",
-    },
+    "&.MuiButton-root": {
+      color: theme.palette.headerTxtColor.main,
+      fontSize: "13px",
+      textTransform: "capitalize",
+      "&:hover": {
+        background: "none",
+      },
 
-    "& .MuiButton-endIcon": {
-      marginLeft: 0,
-    },
-    "& .MuiTouchRipple-root": {
-      display: "none",
+      "& .MuiButton-endIcon": {
+        marginLeft: 0,
+      },
+      "& .MuiTouchRipple-root": {
+        display: "none",
+      },
     },
   },
 
   menuItem: {
+    "&.MuiMenuItem-root": {
     padding: "2px",
     gap: "10px",
-    cursor:"pointer",
+    cursor: "pointer",
 
     "& .MuiListItemIcon-root": {
       minWidth: "max-content",
@@ -45,11 +48,11 @@ export const useStyles = makeStyles((theme) => ({
       display: "none",
     },
 
-    "&.subMenuItem":{
-        padding:"0",
-        "& .MuiListItemIcon-root svg":{
-            fontSize:"17px"
-        }
-    }
-  },
+    "&.subMenuItem": {
+      padding: "0",
+      "& .MuiListItemIcon-root svg": {
+        fontSize: "17px",
+      },
+    },
+  },}
 }));

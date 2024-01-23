@@ -1,4 +1,4 @@
-import { Box, Container } from "@mui/material";
+import { Box, Container, CssBaseline } from "@mui/material";
 import React from "react";
 import Header from "../Header/Header";
 import DrawerComp from "../Drawer/Drawer";
@@ -9,10 +9,11 @@ function Main() {
   const classes = useStyles();
   return (
     <Box>
+        <CssBaseline />
       <Header />
       <DrawerComp />
-      <Container maxWidth="xl" disableGutters >
-        <Box className={classes.mainBox} >
+      <Container maxWidth="xl" disableGutters>
+        <Box className={classes.mainBox}>
           <Dashboard />
         </Box>
       </Container>

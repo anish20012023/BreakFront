@@ -11,7 +11,7 @@ const data = [
 ];
 
 const CustomButton = styled(Button)(({ theme }) => ({
-  color: theme.palette.headerTxtColor,
+  color: theme.palette.headerTxtColor.main,
   fontSize: "13px",
   textTransform: "capitalize",
   "&:hover": {
@@ -54,7 +54,7 @@ function Profile() {
       {/* dropdown */}
       <Menu open={Boolean(dropAnchor)} anchorEl={dropAnchor} onClose={handleClose} className={classes.MenuDrop}>
         {data.map((item, index) => (
-          <MenuItem className={classes.menuItem} onClick={handleClose}>
+          <MenuItem className={classes.menuItem} onClick={handleClose} key={index}>
             <ListItemIcon>
               <img src={item.img} />
             </ListItemIcon>

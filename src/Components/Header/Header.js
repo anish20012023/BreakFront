@@ -12,7 +12,7 @@ function Header() {
   const classes = useStyles();
 
   return (
-    <>
+    <Box>
       <AppBar className={classes.root}>
         <Toolbar className={classes.toolbar}>
           <Box className={classes.iconLinks}>
@@ -44,7 +44,7 @@ function Header() {
           </Box>
         </Toolbar>
       </AppBar>
-    </>
+    </Box>
   );
 }
 

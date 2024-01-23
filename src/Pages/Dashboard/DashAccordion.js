@@ -74,28 +74,27 @@ function DashAccordion({ title, children }) {
       </AccordionSummary>
       <AccordionDetails className={classes.accordionDetails}>
         <Box className="selectBox">
-          <ThemeProvider theme={dateTheme}>
-            <Select
-              displayEmpty
-              value={date}
-              renderValue={(value) => "Date"}
-              className="dateSelect"
-              onChange={handleDateChange}
-            >
-              <MenuItem className={classes.dateMenuItem} value="last 30 days">
-                Last 30 days
-              </MenuItem>
-              <MenuItem className={classes.dateMenuItem} value="month">
-                this month
-              </MenuItem>
-              <MenuItem className={classes.dateMenuItem} value="quater">
-                this quater
-              </MenuItem>
-              <MenuItem className={classes.dateMenuItem} value="year">
-                this year
-              </MenuItem>
-            </Select>
-          </ThemeProvider>
+          <Select
+            displayEmpty
+            value={date}
+            renderValue={(value) => "Date"}
+            className="dateSelect"
+            onChange={handleDateChange}
+          >
+            <MenuItem className={classes.dateMenuItem} value="last 30 days">
+              Last 30 days
+            </MenuItem>
+            <MenuItem className={classes.dateMenuItem} value="month">
+              this month
+            </MenuItem>
+            <MenuItem className={classes.dateMenuItem} value="quater">
+              this quater
+            </MenuItem>
+            <MenuItem className={classes.dateMenuItem} value="year">
+              this year
+            </MenuItem>
+          </Select>
+
           {/* chart */}
         </Box>
         <Box className={classes.chartBox}>{children}</Box>

@@ -10,33 +10,37 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   DropBtn: {
-    color: theme.palette.headerTxtColor,
-    fontSize: "13px",
-    textTransform: "capitalize",
-    "&:hover": {
-      background: "none",
-    },
+    "&.MuiButton-root": {
+      color: theme.palette.headerTxtColor.main,
+      fontSize: "13px",
+      textTransform: "capitalize  !important",
+      "&:hover": {
+        background: "none !important",
+      },
 
-    "& .MuiButton-endIcon": {
-      marginLeft: 0,
-    },
-    "& .MuiTouchRipple-root": {
-      display: "none",
+      "& .MuiButton-endIcon": {
+        marginLeft: "0px ",
+      },
+      "& .MuiTouchRipple-root": {
+        display: "none",
+      },
     },
   },
   menuItem: {
-    padding: "2px",
-    gap: "10px",
+    "&.MuiMenuItem-root": {
+      padding: "2px !important",
+      gap: "10px  !important",
 
-    "& .MuiListItemIcon-root": {
-      minWidth: "max-content",
-    },
-    "& .MuiListItemText-root span": {
-      textTransform: "capitalize",
-      fontSize: "12px",
-    },
-    "& .MuiListItemText-root +  span": {
-      display: "none",
+      "& .MuiListItemIcon-root": {
+        minWidth: "max-content  !important",
+      },
+      "& .MuiListItemText-root span": {
+        textTransform: "capitalize",
+        fontSize: "12px",
+      },
+      "& .MuiListItemText-root +  span": {
+        display: "none",
+      },
     },
   },
 }));

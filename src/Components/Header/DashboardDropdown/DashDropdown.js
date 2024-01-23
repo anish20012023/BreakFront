@@ -1,4 +1,4 @@
-import { Button, Divider, ListItemIcon, ListItemText, Menu, MenuItem } from "@mui/material";
+import { Box, Button, Divider, ListItemIcon, ListItemText, Menu, MenuItem } from "@mui/material";
 import React, { useState } from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { useStyles } from "./DashDropdown.styles";
@@ -32,7 +32,7 @@ function DashDropdown({ title }) {
       {/* dropdown */}
       <Menu open={Boolean(dropAnchor)} anchorEl={dropAnchor} onClose={handleClose} className={classes.MenuDrop}>
         {menuItem.map((menu, index) => (
-          <>
+          <Box>
             <MenuItem key={index} className={classes.menuItem} onClick={() => setDropAnchor(null)}>
               <ListItemIcon>
                 <img src={menu.img} />
@@ -40,7 +40,7 @@ function DashDropdown({ title }) {
               <ListItemText>{menu.title}</ListItemText>
             </MenuItem>
             {index % 2 != 0 && <Divider />}
-          </>
+          </Box>
         ))}
       </Menu>
     </>

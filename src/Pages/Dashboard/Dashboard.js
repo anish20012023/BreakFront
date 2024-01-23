@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import { useStyles } from "./Dashboard.styles";
-import DashAccordion from "./DashAccordion";
+import DashAccordion from "./DashboardAccordion/DashAccordion";
 import BarChart from "./charts/Barchart";
 
 function Dashboard() {
@@ -12,23 +12,23 @@ function Dashboard() {
         <img src="images/dashboardPage/dash-white.svg" />
         <Typography>My Dashboard</Typography>
       </Box>
-      <Grid container className={classes.dashGrid} spacing={1} >
-        <Grid item md={6} className="gridItem">
+      <Grid container className={classes.dashGrid} spacing={1}>
+        <Grid item md={6} sm={12} className="gridItem">
           <DashAccordion title={"Oppurtunities Lost By stage"}>
             <BarChart />
           </DashAccordion>
         </Grid>
-        <Grid item md={6} className="gridItem">
+        <Grid item md={6} sm={12} className="gridItem">
           <DashAccordion title={"Oppurtunities Won By stage"}>
             <BarChart />
           </DashAccordion>
         </Grid>
-        <Grid item md={6} className="gridItem">
+        <Grid item md={6} sm={12} className="gridItem">
           <DashAccordion title={"Current opportunities By stage"}>
             <BarChart />
           </DashAccordion>
         </Grid>
-        <Grid item md={6} className="gridItem">
+        <Grid item md={6} sm={12} className="gridItem">
           <DashAccordion title={"Current opportunities By Probability"}>
             <BarChart />
           </DashAccordion>

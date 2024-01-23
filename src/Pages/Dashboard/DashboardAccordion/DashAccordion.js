@@ -3,18 +3,10 @@ import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import SettingsRoundedIcon from "@mui/icons-material/SettingsRounded";
 import styled from "@emotion/styled";
-import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
-  Box,
-  IconButton,
-  MenuItem,
-  Select,
-  ThemeProvider,
-} from "@mui/material";
+import { Accordion, AccordionDetails, AccordionSummary, Box, IconButton, MenuItem, Select } from "@mui/material";
 import { useStyles } from "./DashAccordion.styles";
-import { dateTheme } from "./DateTheme";
+
+// styled custom button for accordion summary
 const CustomButtons = styled("span")({
   display: "flex",
   alignItems: "center",
@@ -49,6 +41,7 @@ const CustomButtons = styled("span")({
   },
 });
 
+// DashAccordion component
 function DashAccordion({ title, children }) {
   const classes = useStyles();
   const [expanded, setExpanded] = useState(true);
@@ -61,13 +54,13 @@ function DashAccordion({ title, children }) {
       <AccordionSummary className="accordianSummary" sx={{ justifyContent: "center !important" }}>
         <span> {title}</span>
         <CustomButtons>
-          <IconButton className="expand" sx={{ border: "1px solid" }} onClick={() => setExpanded(!expanded)}>
+          <IconButton className="expand" onClick={() => setExpanded(!expanded)}>
             <ArrowDropDownOutlinedIcon />
           </IconButton>
-          <IconButton className="setting" sx={{ border: "1px solid" }}>
+          <IconButton className="setting">
             <SettingsRoundedIcon />
           </IconButton>
-          <IconButton className="close" sx={{ border: "1px solid" }}>
+          <IconButton className="close">
             <CloseRoundedIcon />
           </IconButton>
         </CustomButtons>
